@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <TextView
+        android:id="@+id/starthint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="\n请输入起始位置位置编号:"/>
+
+    <EditText
+        android:id="@+id/start"
+        android:layout_below="@id/starthint"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/endhint"
+        android:layout_below="@id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="\n请输入起始位置位置编号:"/>
+
+    <EditText
+        android:id="@+id/end"
+        android:layout_below="@id/endhint"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:inputType="number"/>
+
+
+</RelativeLayout>

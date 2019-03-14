@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="景点名称"/>
+
+    <EditText
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:hint="景点信息" />
+
+    <EditText
+        android:id="@+id/x"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
+        android:layout_marginRight="180dp"
+        android:hint="横坐标(0~300)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/y"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
+        android:layout_alignLeft="@id/x"
+        android:layout_marginLeft="180dp"
+        android:hint="纵坐标(0~150)"
+        android:inputType="number" />
+
+</RelativeLayout>
