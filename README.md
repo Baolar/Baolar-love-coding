@@ -1,5 +1,5 @@
 # Scenic Spot Helper beta
-Studying in WUSTCS,love WHU,Conell and Microsoft.
+A simple demo for data structure project, 2019  course assignment by shool of computer sceince, wust
 
 采用JAVA、C++、C++ STL编写。
 
